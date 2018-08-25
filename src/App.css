@@ -1,0 +1,355 @@
+/*   RÖDA JEVLAR          */
+
+body{
+   font-family: 'Roboto', sans-serif;
+   background-color: #009e92;
+  /* background-image: url("./pics/wall.jpg");
+    background-attachment: fixed;
+   
+   background-repeat: no-repeat;
+   background-size: cover;*/
+   
+   
+
+}
+h2, h1{
+   font-family: 'Roboto', cursive;
+  font-size: 290%;
+  color: #009e92, white;
+  
+  margin: auto;
+  border-radius: 5px;
+  
+}
+p{
+  font-size: 110%; 
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.4);
+  border: 0px;
+  border-radius: 20px;
+  font-family: 'Roboto'
+}
+
+
+
+
+/*       */
+
+.Pages{
+  display: flex;
+  flex-direction: column;
+
+}
+.App {
+
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #009e92;
+  padding: 10px;
+ 
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 150px;
+}
+
+
+.Content{
+
+ 
+  color: white;
+}
+
+/*  TEXT           */
+.Texth2{
+
+ color: white;
+ max-width: 35%;
+ 
+
+  
+ 
+}
+
+.Texth22{
+
+
+ color: white;
+ float: right;
+ max-width: 65%;
+
+
+
+ 
+ 
+}
+
+
+/*             */
+
+.OmossTexth222{
+  margin-top: 30%;
+ color: white;
+
+}
+
+.OmossTexth22{
+margin: auto;
+ color: white;
+
+}
+
+.OmossTexth2{
+margin-top: 30%;
+ color: white;
+
+}
+.OmossTexth2 h2{
+  
+  
+}
+.OmossTexth2 p{
+  position: relative;
+  
+  
+  max-width: 25%;
+   
+}
+
+
+/*             */
+@media only screen and (max-width:480px) {
+  .SocialButtons{
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width:480px) {
+  .ContentOne {
+
+    height: 400px !important;
+    background-size: cover !important;
+    background-attachment: absolute;
+  }
+  .ContentThree{
+
+    height: 400px;
+    background-size: cover;
+  }
+    .HemContent{
+    height: 1000px !important;
+    background-size: cover !important;
+  }
+   .HemContent1{
+   height: 400px !important;
+    background-size: cover !important;
+    background-attachment: absolute;
+  }
+   .HemContent2{
+
+    height: 300px !important;
+    background-size: cover !important;
+  }
+    .oppettiderBild{
+    
+    height: 400px;
+    background-size: cover;
+
+  }
+  .kontaktBild{
+    
+    height: 400px;
+    background-size: cover;
+
+  }
+  .SocialButtons{
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width:736px) {
+  .ContentOne {
+    height: 1000px !important;
+    background-size: cover !important;
+    background-attachment: absolute;
+  }
+  .ContentThree{
+
+    height: 1000px !important;
+    background-size: cover !important;
+  }
+  .HemContent{
+    height: 1000px !important;
+    background-size: cover !important;
+  }
+   .HemContent1{
+    height: 800px !important;
+    background-size: cover !important;
+    background-attachment: absolute;
+  }
+ .HemContent2{
+
+    height: 500px !important;
+    background-size: cover !important;
+  }
+  .oppettiderBild{
+    height: 500px !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+
+  }
+  .kontaktBild{
+    height: 1000px !important;
+    background-size: 100% !important;
+    background-attachment: fixed;
+
+  }
+}
+
+.ContentOne{
+  
+border-top: 4px solid #e96d49;
+  background-image: url("./pics/kvarnholmen.jpg");
+    background-attachment: absolute;
+   
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+   
+
+}
+.ContentTwo{
+border-top: 4px solid #e96d49;
+
+ 
+  
+}
+.ContentThree{
+  
+   border-top: 4px solid #e96d49;
+  background-image: url("./pics/godmat.jpg");
+    
+     background-position: center;
+  height: 400px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+ 
+   
+}
+.HemContent{
+border-top: 4px solid #e96d49;
+  background-image: url("./pics/restaurangbild.jpg");
+    background-attachment: absolute;
+     background-position: center center;
+  height: 400px;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.HemContent1{
+  border-top: 4px solid #e96d49;
+  background-image: url("./pics/snyggbild.jpg");
+    background-attachment: absolute;
+   height: 500px;
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+}
+.iframeDiv{
+   
+
+
+}
+.googleMaps{
+  border-top: 4px solid #e96d49;
+  border-bottom: 4px solid #e96d49;
+}
+.Facebook{
+  
+
+  border: 4px solid #009e92;
+ 
+  
+}
+
+
+.HemContent2{
+  border-top: 4px solid #e96d49;
+  background-image: url("./pics/bakgrund.png");
+    background-attachment: absolute;
+   height: 200px;
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+.oppettiderBild{
+
+
+}
+.kontaktBild{
+background-image: url("./pics/kvarnholmen.jpg");
+    background-attachment: absolute;
+     background-position: center center;
+  height: 300px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+
+
+
+/**/
+
+.SocialButtons {
+  
+
+  position: absolute;
+ margin: 0;
+  text-align: left;
+    
+ left: 2px;
+  top: 5px;
+  z-index: 1301;
+
+}
+
+.oppettider{
+  position: absolute;
+ margin: 0;
+  text-align: right;
+    color: rgba(255,255,255,0.7);
+ right: 2px;
+  top: 5px;
+  z-index: 1301;
+}
+.oppettider:hover{
+  color: white;
+}
+
+.footer{
+  background-color: #009e92;
+  color: black;
+  border-top: 4px solid #e96d49;
+  display: block;
+}
+
+
+
+
+
